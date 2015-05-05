@@ -1,0 +1,27 @@
+<center>
+	
+	<h1>Student details</h1>
+	<h5 style="color:green">start assessment by clicking on student name</h5>
+</center><table id="StudentsList">
+	<tr><th>Student name</th>
+	<th>Class</th>
+	<th>teacher</th>
+<th>Assessment Status</th>	
+	<th>marks obtained</th>
+	</tr>
+
+
+<% for(var i=0;i<dt.length;i++){ %>
+	
+	<tr> <td> <%= dt[i].name %></td>
+		<td> <%= dt[i].class %></td>
+		<td> <%= dt[i].teacher %></td>
+		 <td> <%= dt[i].status %></td>
+		<td> <%= dt[i].marks %></td>
+	</tr>
+	
+	<% } %>
+
+
+		
+</table>

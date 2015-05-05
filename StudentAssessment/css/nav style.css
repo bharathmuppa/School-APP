@@ -1,0 +1,16 @@
+#content1,#content2,#content3,#content4{
+	width:200px;
+	border-color:green;
+	margin-left:100px;
+	margin-top:5px;
+	background-color:green
+	
+	
+}
+#verticaltab1,#verticaltab2,#verticaltab3,#verticaltab4{
+	width:150px;
+	border-color:green;
+	margin-left:100px;
+	
+	background-color:orange;
+}

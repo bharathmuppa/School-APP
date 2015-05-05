@@ -1,0 +1,194 @@
+body {
+width: 99%;
+background-image: url("silver_bg.jpg");
+background-repeat:no-repeat;
+
+}
+header{
+	width:100%;
+	height:10%;
+	
+}
+footer{
+	margin-top:1%;
+	margin-left:10%;
+		margin-right:15%;
+		background-color:black;
+		color:white;
+}
+#top{
+	color:white;
+	float:right;
+}
+#logo{
+	float:left;
+
+}
+#tit{
+	
+	margin-left:25%;
+	font-size:300%;
+	color:white
+}
+nav{
+	width:65%;
+	background-color:white;
+	opacity:0.7;
+	margin-left:15%;
+	margin-right:22%;
+	height:50px;
+	margin-top:5%;
+	margin-bottom:2%;
+display: :inline;
+	
+}
+nav ul li{
+	float:left;
+	
+	background-color:#09c;
+margin-right:10px;
+padding-left:10px;
+	
+list-style:none;
+display:inline;
+list-style-type: none;
+-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+nav ul{
+
+	float:right;
+	
+	margin-right:20px;
+	
+}
+
+ul li a{
+	padding:5px 5px 5px 5px;
+	background-color:#09c;
+	font-size:large;
+	text-decoration: none;
+	-webkit-border-radius:10px;
+	color:white;
+}
+ul li :hover{
+	background-color:green;
+	background:green;
+	-webkit-border-radius:10px;
+}
+ul li a:hover{
+background-color:green;
+	background:green;
+	-webkit-border-radius:10px;
+}	
+
+form input{
+	
+	margin-top:1%;
+	border-radius: 10px;
+	border-style:solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width: 25%;
+	height:30px;
+	background:white;
+	border-color:#09c;
+	 
+}
+form input:focus{
+	border-style:solid;
+	border-color:green;
+	background-color:white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	outline:0;
+}
+
+.submit{
+	background-color:#09c;
+	border-radius: 5px;
+	-webkit-border-radius: 10px;
+	color:white;
+	width:10%;
+	border-color:#09c;
+	
+	}
+	.submit:hover{
+		background-color:white;
+		color:green;
+	}
+	mark{
+		background: white;
+	}
+	#content{
+		margin-top:2%;
+		margin-left:15%;
+		margin-right:20%;
+		margin-bottom:1%;
+		background-color:white;
+		height:auto;
+		min-height:500px;
+		height:400px;
+		position:relative;
+		opacity:0.9;
+		
+	}
+	#wrapper{
+		margin-left:10%;
+		margin-bottom:10px;
+	}
+	#nav2{
+		float:right;
+		margin-right:20%;
+	}
+button{
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		background-color:#09c;
+		color: white;  
+	}
+	
+	
+		
+	.projecttable{
+		float:left;
+		display:inline;
+		margin-left:25px;
+		
+		margin-top:5%;
+		width:26%;
+		
+	}
+	.projecttable tr{
+		position: relative;
+		left: 20px;
+	}
+	
+	table{
+		background-color:green;
+	}
+	th,td{
+		
+
+		border-collapse:collapse;
+	}
+	table tr{
+		border:2px solid black;
+		
+	}
+table th{
+	background-color:#0099cc;
+	border:2px solid ;
+	
+}
+table td{
+	border:2px solid;
+	
+}
+.active{
+	background-color:green;
+	-webkit-border-radius:10px;
+}
+#imageholder {
+	margin-left:5px;
+	max-height: 250px; overflow: hidden; list-style: none; padding: 0; margin: 0;}

@@ -1,0 +1,45 @@
+<div id="wrapper" >
+	<br>
+	<div id="leftdiv" style="width:50%;float:left">
+		<form>
+			<kbd style="font-size:250%;padding-top:5px;">Login Form</kbd>
+			<br>
+			<input type="text" id="user" placeholder="User Name"/>
+			<br>
+			<br>
+			<input type="password" id="pwd" placeholder="Password"/>
+			<br>
+		</form>
+		<br>
+		<input type="submit" id="dub" class="submit" value="submit"/>
+		<br>
+		<p id="pwd">
+			Forget Password/username
+		</p>
+		<br>
+		<kbd>Are you a new user?</kbd> &nbsp;
+		<input type="submit" class="submit" value="Signup"/>
+	</div>
+	<div id="rightdiv" style="float: right;">
+		
+		<img src="images/studport1.jpg"  />
+		
+		<img src="images/studport2.jpg"  />
+		
+		<img src="images/studport3.jpg"  />
+		
+	</div>
+	<script>
+		$(document).ready(function() {
+
+			$('#rightdiv').cycle({
+				/*fx : 'scrollDown'*/	
+			 fx:    'curtainX', 
+   			 sync:  false, 
+    		delay: -2000
+   		});
+
+		});
+
+	</script>
+</div>

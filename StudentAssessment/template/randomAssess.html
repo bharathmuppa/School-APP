@@ -1,0 +1,44 @@
+<center>
+	<h1 style="color:green">assessment started</h1>
+</center>
+
+	<fieldset><legend>student details</legend>
+		<form>
+<h3>student name: <%= retrieve.name %></h3>
+<h3>assessment status: <%= retrieve.status %></h3>
+<h3>your name: <%= retrieve.teacher %></h3>
+<h3 id="marks">marks: <input type="text" value="<%= retrieve.marks %>" readonly></h3></center></fieldset>
+</form>
+	
+	
+	
+	<fieldset id="wordsplace"><legend>
+		Word List</legend></fieldset>
+	<!--
+	<table>
+		<tr><% for(var i=0;i<words.length;i++) {%>
+			<p style="border-color:blue 2px;color:black"><%= words[i]%><p>
+			<% }%></tr></table>-->
+	
+
+<div id="correctdiv" ></div>
+
+<div class="modal" id="prompt">
+  
+ 
+  <p>All the questions have been answered,marks obtained are :xxx
+  <br>
+   <p>if you want add any grace marks you can enter here in input box</p>
+   <br>
+   
+	
+  <form>
+    <input/>
+    <button type="submit"> OK </button>
+    <button type="button" class="close"> Cancel </button>
+  </form>
+  
+ 
+</div>
+
+
